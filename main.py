@@ -15,3 +15,10 @@ print("the factorial of 1:",factorial(1))
 print("the factorial of 2:",factorial(2))
 print("the factorial of 5:",factorial(5))
 print("the factorial of 10:",factorial(10))
+def by_three(number):
+    if number %3 == 0:
+        return number*number*number
+    else:
+      return false
+print(by_three(9))
+print(by_three(4))
